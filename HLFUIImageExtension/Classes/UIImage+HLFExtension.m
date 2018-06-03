@@ -1,14 +1,14 @@
 //
-//  HLFUIImageExtension.m
-//  Easy-All 2.0
+//  UIImage+HLFExtension.m
+//  Common
 //
-//  Created by chensa on 2018/6/3.
-//  Copyright © 2018年 陈舒澳. All rights reserved.
+//  Created by chen on 2017/1/4.
+//  Copyright © 2017年 chen. All rights reserved.
 //
 
-#import "HLFUIImageExtension.h"
+#import "UIImage+HLFExtension.h"
 
-@implementation HLFUIImageExtension
+@implementation UIImage (HLFExtension)
 
 /**
  创建一张指定大小的纯色图片
@@ -25,9 +25,8 @@
     UIRectFill(CGRectMake(0, 0, imageSize.width, imageSize.height)); //填充颜色
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext(); //获取图片
     UIGraphicsEndImageContext();//释放上下文
-    
+ 
     return image;
 }
-
 
 @end

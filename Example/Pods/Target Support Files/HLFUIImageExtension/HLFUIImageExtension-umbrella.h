@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HLFUIImageExtension.h"
 
 FOUNDATION_EXPORT double HLFUIImageExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char HLFUIImageExtensionVersionString[];

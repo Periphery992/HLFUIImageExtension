@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name             = 'HLFUIImageExtension'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'UIImage Extension'
   s.homepage         = 'https://github.com/Periphery992/HLFUIImageExtension.git'
 

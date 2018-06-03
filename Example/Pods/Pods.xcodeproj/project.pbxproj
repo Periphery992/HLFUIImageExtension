@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		16B24B7F0CB5F81CF412ABC619B90C10 /* Pods-HLFUIImageExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA48231AC47D98FB55DDD0C3B6102F9 /* Pods-HLFUIImageExtension_Example-dummy.m */; };
-		1A660FDF3B4460394EB8660F5C27DDA8 /* HLFUIImageExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 135D64A1DA5D8A7B86A3B2355190B757 /* HLFUIImageExtension-dummy.m */; };
+		19D14E4004CA72F2FEBB5F60E69B65C1 /* HLFUIImageExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5B207C3538BF61BBD4D8F6EBA2D86 /* HLFUIImageExtension.m */; };
 		259FB648406A584661F1ECA47D9E1527 /* Pods-HLFUIImageExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C653C588AC0016AD4EE786B3AD9794 /* Pods-HLFUIImageExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C7668750225A8A92C7DA076FFE85EED /* Pods-HLFUIImageExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 429F267AB8FFCD5E0B28CE55E5D12108 /* Pods-HLFUIImageExtension_Tests-dummy.m */; };
-		6AFDD62B0E899AA27BC8352770A6B34B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3890EEFC6433C1BABBFBB8E51DE55A47 /* HLFUIImageExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCB0BB41BF1B86B3ADE3F0315B5B2DF /* HLFUIImageExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42EE96D840C7E75A461AB601F9E86CE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		66D293FCDE160E43442FF21B6A36288F /* HLFUIImageExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9AD2DB91268A88B41F556ED37C2ABB /* HLFUIImageExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		788E969326023CC65DD3D847459EDD25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9401EC584EAF47ABAD2E563B062AAB73 /* HLFUIImageExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 457E6F426E6FF02DF56F20153C732A22 /* HLFUIImageExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B758F1CD96AEA2644A8EB78E3F68F3D5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FE61D6D0E2E78CB3898C5F8919DA2B91 /* ReplaceMe.m */; };
+		C332735CB996083DB9244915232B1AEB /* HLFUIImageExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF33DC854BFEF0CBE5F2C8C19A8F705D /* HLFUIImageExtension-dummy.m */; };
 		C3A13A6ACF4D31A1022BD182AD38A7D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DDD5D75CACA39D82FB022E86EDAF44E5 /* Pods-HLFUIImageExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D00D311F02A9241BD0986E6694922A /* Pods-HLFUIImageExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -24,27 +25,29 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 17ED0907D1631FE9EC0ED61248B50226;
+			remoteGlobalIDString = CC2416C50A7C1AA36ECBC92CC60D6C7D;
 			remoteInfo = HLFUIImageExtension;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		08CF374E9E0D8FD55D3E782C92C1A27C /* Pods-HLFUIImageExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLFUIImageExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		135D64A1DA5D8A7B86A3B2355190B757 /* HLFUIImageExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLFUIImageExtension-dummy.m"; sourceTree = "<group>"; };
 		15B6DC724FE4E8F38FE4E02EA5A945FB /* Pods-HLFUIImageExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLFUIImageExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		186EB8B9A8501B57467FEACA41560008 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B187237BA1080B0CB75709BA1FF7C66 /* HLFUIImageExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLFUIImageExtension-prefix.pch"; sourceTree = "<group>"; };
 		1CF64AA76ED95A6A7EFA0F30EE996379 /* Pods-HLFUIImageExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLFUIImageExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2A9F0BC1DB2D5C0D603D63BC58836E9F /* HLFUIImageExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HLFUIImageExtension.framework; path = HLFUIImageExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D13DCA6DB5FBF0B3101E7B984F3E6E /* Pods-HLFUIImageExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HLFUIImageExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		38EF2966D949E241301F24D218708005 /* HLFUIImageExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLFUIImageExtension.xcconfig; sourceTree = "<group>"; };
 		39EE6D4FFAE8B563C0043DD7700209C7 /* Pods-HLFUIImageExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLFUIImageExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		40450A148292A76B4D711093A5B2566F /* Pods_HLFUIImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLFUIImageExtension_Tests.framework; path = "Pods-HLFUIImageExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		429F267AB8FFCD5E0B28CE55E5D12108 /* Pods-HLFUIImageExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLFUIImageExtension_Tests-dummy.m"; sourceTree = "<group>"; };
-		457E6F426E6FF02DF56F20153C732A22 /* HLFUIImageExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLFUIImageExtension-umbrella.h"; sourceTree = "<group>"; };
 		4F7F84591B9547CC19187139680812BC /* Pods-HLFUIImageExtension_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLFUIImageExtension_Example-resources.sh"; sourceTree = "<group>"; };
+		5F9AD2DB91268A88B41F556ED37C2ABB /* HLFUIImageExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLFUIImageExtension-umbrella.h"; sourceTree = "<group>"; };
 		63E3AB1DF491CB1E59BC5FC04DF048D6 /* Pods-HLFUIImageExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLFUIImageExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FA5B207C3538BF61BBD4D8F6EBA2D86 /* HLFUIImageExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLFUIImageExtension.m; path = HLFUIImageExtension/Classes/HLFUIImageExtension.m; sourceTree = "<group>"; };
 		7D87C470E46C09EBD7BB48073035B59C /* Pods-HLFUIImageExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLFUIImageExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		849F61A20C961726922A9251194F0108 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F1187A886C5256E7053CD3AF3372E69 /* Pods-HLFUIImageExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLFUIImageExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90D00D311F02A9241BD0986E6694922A /* Pods-HLFUIImageExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLFUIImageExtension_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -52,32 +55,31 @@
 		A3C653C588AC0016AD4EE786B3AD9794 /* Pods-HLFUIImageExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLFUIImageExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A909067E89A44B4FCCCC664D67FB311D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2BF6D42BB374982A4575C2FEB973CE6 /* Pods-HLFUIImageExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLFUIImageExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B98004B3BBB8110185C7CA36FF85B707 /* HLFUIImageExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLFUIImageExtension-prefix.pch"; sourceTree = "<group>"; };
+		BF33DC854BFEF0CBE5F2C8C19A8F705D /* HLFUIImageExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLFUIImageExtension-dummy.m"; sourceTree = "<group>"; };
 		C1B97F6C1B3EA9F1A7C261FF4A103C32 /* Pods-HLFUIImageExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HLFUIImageExtension_Example.modulemap"; sourceTree = "<group>"; };
 		C280D9246E591F426F961A008B5FDD23 /* Pods-HLFUIImageExtension_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLFUIImageExtension_Tests-resources.sh"; sourceTree = "<group>"; };
-		CF2A24FB711340CD00E2CF8D3951C12C /* HLFUIImageExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLFUIImageExtension.xcconfig; sourceTree = "<group>"; };
 		D6EE939152D2141F52C1FDC89A053FBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAD625BB535442119D8A0C309DDEB09E /* HLFUIImageExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HLFUIImageExtension.modulemap; sourceTree = "<group>"; };
+		DBCB0BB41BF1B86B3ADE3F0315B5B2DF /* HLFUIImageExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLFUIImageExtension.h; path = HLFUIImageExtension/Classes/HLFUIImageExtension.h; sourceTree = "<group>"; };
 		E7AC5CCCC783C8D660271E647AFF28A5 /* Pods_HLFUIImageExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLFUIImageExtension_Example.framework; path = "Pods-HLFUIImageExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA48231AC47D98FB55DDD0C3B6102F9 /* Pods-HLFUIImageExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLFUIImageExtension_Example-dummy.m"; sourceTree = "<group>"; };
 		F6207ABED6A9C0B52A694A6CFAA4E3CC /* Pods-HLFUIImageExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLFUIImageExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE61D6D0E2E78CB3898C5F8919DA2B91 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HLFUIImageExtension/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		F7A25A4053D33379A56B32EB1E443022 /* HLFUIImageExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HLFUIImageExtension.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05B3C31460E971DC895CD7D41BE19497 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AFDD62B0E899AA27BC8352770A6B34B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		68776EB33EA13E554CA195D6669BDABF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				788E969326023CC65DD3D847459EDD25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2289376321041D7DC5151D05B005B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EE96D840C7E75A461AB601F9E86CE3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B4E5A80370319B308CBCFE6275A196 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9207BEF54C6F5FA49901AC9CBC7B81CD /* HLFUIImageExtension */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		2B7D0326CCBCF462B938F449B8149036 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,25 +151,36 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BAAE68ADF4B95ED223FEB4806B64F2ED /* Development Pods */,
+				16B4E5A80370319B308CBCFE6275A196 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B5C79F51F1514EA0151F67283623785D /* Products */,
 				2B7D0326CCBCF462B938F449B8149036 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B5A5BCD2149C702432FC7AEB8C40B444 /* Support Files */ = {
+		8E7AF95F4039D0D515739B75367CA6EB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DAD625BB535442119D8A0C309DDEB09E /* HLFUIImageExtension.modulemap */,
-				CF2A24FB711340CD00E2CF8D3951C12C /* HLFUIImageExtension.xcconfig */,
-				135D64A1DA5D8A7B86A3B2355190B757 /* HLFUIImageExtension-dummy.m */,
-				B98004B3BBB8110185C7CA36FF85B707 /* HLFUIImageExtension-prefix.pch */,
-				457E6F426E6FF02DF56F20153C732A22 /* HLFUIImageExtension-umbrella.h */,
-				186EB8B9A8501B57467FEACA41560008 /* Info.plist */,
+				F7A25A4053D33379A56B32EB1E443022 /* HLFUIImageExtension.modulemap */,
+				38EF2966D949E241301F24D218708005 /* HLFUIImageExtension.xcconfig */,
+				BF33DC854BFEF0CBE5F2C8C19A8F705D /* HLFUIImageExtension-dummy.m */,
+				1B187237BA1080B0CB75709BA1FF7C66 /* HLFUIImageExtension-prefix.pch */,
+				5F9AD2DB91268A88B41F556ED37C2ABB /* HLFUIImageExtension-umbrella.h */,
+				849F61A20C961726922A9251194F0108 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HLFUIImageExtension";
+			sourceTree = "<group>";
+		};
+		9207BEF54C6F5FA49901AC9CBC7B81CD /* HLFUIImageExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB0BB41BF1B86B3ADE3F0315B5B2DF /* HLFUIImageExtension.h */,
+				6FA5B207C3538BF61BBD4D8F6EBA2D86 /* HLFUIImageExtension.m */,
+				8E7AF95F4039D0D515739B75367CA6EB /* Support Files */,
+			);
+			name = HLFUIImageExtension;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B5C79F51F1514EA0151F67283623785D /* Products */ = {
@@ -170,14 +191,6 @@
 				40450A148292A76B4D711093A5B2566F /* Pods_HLFUIImageExtension_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BAAE68ADF4B95ED223FEB4806B64F2ED /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F3703A8F5B35CBA80AA35C5AB21FF75B /* HLFUIImageExtension */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -196,16 +209,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F3703A8F5B35CBA80AA35C5AB21FF75B /* HLFUIImageExtension */ = {
-			isa = PBXGroup;
-			children = (
-				FE61D6D0E2E78CB3898C5F8919DA2B91 /* ReplaceMe.m */,
-				B5A5BCD2149C702432FC7AEB8C40B444 /* Support Files */,
-			);
-			name = HLFUIImageExtension;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -217,19 +220,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B8FC45E1DBD7B2AB52DE34B3B06A3DF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9401EC584EAF47ABAD2E563B062AAB73 /* HLFUIImageExtension-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EEFF08D9C238463F6A53D81850CF4195 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				259FB648406A584661F1ECA47D9E1527 /* Pods-HLFUIImageExtension_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F18C868531089850118F1E020CDDE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D293FCDE160E43442FF21B6A36288F /* HLFUIImageExtension-umbrella.h in Headers */,
+				3890EEFC6433C1BABBFBB8E51DE55A47 /* HLFUIImageExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,23 +257,6 @@
 			productReference = 40450A148292A76B4D711093A5B2566F /* Pods_HLFUIImageExtension_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		17ED0907D1631FE9EC0ED61248B50226 /* HLFUIImageExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10E7ED212C6EAF41C769ABB41756EB4F /* Build configuration list for PBXNativeTarget "HLFUIImageExtension" */;
-			buildPhases = (
-				38C2DB64F15C749A075BC1DC3F5E147E /* Sources */,
-				05B3C31460E971DC895CD7D41BE19497 /* Frameworks */,
-				6B8FC45E1DBD7B2AB52DE34B3B06A3DF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HLFUIImageExtension;
-			productName = HLFUIImageExtension;
-			productReference = 2A9F0BC1DB2D5C0D603D63BC58836E9F /* HLFUIImageExtension.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		BB0332DDEABC53EB726C3ED44AAAE375 /* Pods-HLFUIImageExtension_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01B508E20BC2321D08C087DA59FE7138 /* Build configuration list for PBXNativeTarget "Pods-HLFUIImageExtension_Example" */;
@@ -286,6 +273,23 @@
 			name = "Pods-HLFUIImageExtension_Example";
 			productName = "Pods-HLFUIImageExtension_Example";
 			productReference = E7AC5CCCC783C8D660271E647AFF28A5 /* Pods_HLFUIImageExtension_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC2416C50A7C1AA36ECBC92CC60D6C7D /* HLFUIImageExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D20AC6EE257553A11390EFA6030D72 /* Build configuration list for PBXNativeTarget "HLFUIImageExtension" */;
+			buildPhases = (
+				49B5197C37DD57A4F114CBA9FB57291B /* Sources */,
+				8D2289376321041D7DC5151D05B005B6 /* Frameworks */,
+				F4F18C868531089850118F1E020CDDE1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLFUIImageExtension;
+			productName = HLFUIImageExtension;
+			productReference = 2A9F0BC1DB2D5C0D603D63BC58836E9F /* HLFUIImageExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -309,7 +313,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17ED0907D1631FE9EC0ED61248B50226 /* HLFUIImageExtension */,
+				CC2416C50A7C1AA36ECBC92CC60D6C7D /* HLFUIImageExtension */,
 				BB0332DDEABC53EB726C3ED44AAAE375 /* Pods-HLFUIImageExtension_Example */,
 				053B8FEF9CD08F2C32DA6935E9FA245D /* Pods-HLFUIImageExtension_Tests */,
 			);
@@ -317,20 +321,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		38C2DB64F15C749A075BC1DC3F5E147E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A660FDF3B4460394EB8660F5C27DDA8 /* HLFUIImageExtension-dummy.m in Sources */,
-				B758F1CD96AEA2644A8EB78E3F68F3D5 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		39B5355CA0DA1B45EA98EE08D8F84170 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2C7668750225A8A92C7DA076FFE85EED /* Pods-HLFUIImageExtension_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B5197C37DD57A4F114CBA9FB57291B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C332735CB996083DB9244915232B1AEB /* HLFUIImageExtension-dummy.m in Sources */,
+				19D14E4004CA72F2FEBB5F60E69B65C1 /* HLFUIImageExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +352,7 @@
 		CECA3F32AA42A1E98B2C18095574FAA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HLFUIImageExtension;
-			target = 17ED0907D1631FE9EC0ED61248B50226 /* HLFUIImageExtension */;
+			target = CC2416C50A7C1AA36ECBC92CC60D6C7D /* HLFUIImageExtension */;
 			targetProxy = 776EC6851473C9C77A13EF035B40B343 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,36 +484,6 @@
 			};
 			name = Debug;
 		};
-		5856800E2FCB3680152B81B601024D8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF2A24FB711340CD00E2CF8D3951C12C /* HLFUIImageExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HLFUIImageExtension/HLFUIImageExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HLFUIImageExtension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HLFUIImageExtension/HLFUIImageExtension.modulemap";
-				PRODUCT_NAME = HLFUIImageExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -629,9 +603,9 @@
 			};
 			name = Debug;
 		};
-		E2AA5BD5ECDE05B4F9FC684E42DEFD41 /* Debug */ = {
+		DE63D2253A4CEE1B9FE26EDBE2141058 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF2A24FB711340CD00E2CF8D3951C12C /* HLFUIImageExtension.xcconfig */;
+			baseConfigurationReference = 38EF2966D949E241301F24D218708005 /* HLFUIImageExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -658,6 +632,36 @@
 			};
 			name = Debug;
 		};
+		F4982B4428818E113F78B420C79CE4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EF2966D949E241301F24D218708005 /* HLFUIImageExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HLFUIImageExtension/HLFUIImageExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HLFUIImageExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HLFUIImageExtension/HLFUIImageExtension.modulemap";
+				PRODUCT_NAME = HLFUIImageExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -670,11 +674,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10E7ED212C6EAF41C769ABB41756EB4F /* Build configuration list for PBXNativeTarget "HLFUIImageExtension" */ = {
+		24D20AC6EE257553A11390EFA6030D72 /* Build configuration list for PBXNativeTarget "HLFUIImageExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2AA5BD5ECDE05B4F9FC684E42DEFD41 /* Debug */,
-				5856800E2FCB3680152B81B601024D8B /* Release */,
+				DE63D2253A4CEE1B9FE26EDBE2141058 /* Debug */,
+				F4982B4428818E113F78B420C79CE4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

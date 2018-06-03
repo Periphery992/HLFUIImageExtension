@@ -1,22 +1,22 @@
 {
   "name": "HLFUIImageExtension",
   "version": "0.1.0",
-  "summary": "A short description of HLFUIImageExtension.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/chencode992@163.com/HLFUIImageExtension",
+  "summary": "UIImage Extension",
+  "homepage": "https://github.com/Periphery992/HLFUIImageExtension.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "chencode992@163.com": "chensa@wind4app.com"
+    "Periphery992": "chencode992@163.com"
   },
   "source": {
-    "git": "https://github.com/chencode992@163.com/HLFUIImageExtension.git",
+    "git": "https://github.com/Periphery992/HLFUIImageExtension.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HLFUIImageExtension/Classes/**/*"
+  "source_files": "HLFUIImageExtension/Classes/**/*",
+  "requires_arc": true
 }
