@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HLFUIImageExtension_Example' do
+  pod 'HLFUIImageExtension', :path => '../'
+
+  target 'HLFUIImageExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
