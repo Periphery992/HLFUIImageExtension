@@ -1,0 +1,6 @@
+framework module Pods_HLFUIImageExtension_Tests {
+  umbrella header "Pods-HLFUIImageExtension_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

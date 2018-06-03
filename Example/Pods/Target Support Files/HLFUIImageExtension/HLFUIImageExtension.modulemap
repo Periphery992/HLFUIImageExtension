@@ -1,0 +1,6 @@
+framework module HLFUIImageExtension {
+  umbrella header "HLFUIImageExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
